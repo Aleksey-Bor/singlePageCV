@@ -1,0 +1,72 @@
+:root {
+  --name-font: bold 24px Arial;
+  --bold-font: bold 16px Arial;
+  --header-font: bold 16px Arial;
+  --main-font: normal 16px Arial;
+  --app-background-color: white;
+  --header-background-color: #1a0dab;
+  --header-font-color: white;
+}
+
+.App {
+  margin: auto;
+  max-width: 800px;
+  padding: 20px 0px;
+  background-color: var(--app-background-color);
+}
+
+.businessCard {
+  display: flex;
+  justify-content: space-around;
+}
+
+.name {
+  font: var(--name-font);
+  text-transform: uppercase;
+}
+
+.contact {
+  font: var(--bold-font);
+}
+
+.avatar {
+  width: 200px;
+}
+
+.header {
+  margin: 30px auto 15px;
+  width: 90%;
+  padding-left: 20px;
+  background-color: var(--header-background-color);
+  font: var(--header-font);
+  color: var(--header-font-color);
+}
+
+.content {
+  margin: 20px auto;
+  width: 90%;
+  font: var(--main-font);
+}
+
+
+
+@media (max-width: 600px) {
+  .businessCard {
+    flex-direction: column-reverse;
+  }
+  .avatarWrapper {
+    margin: auto;
+  }
+  .contacts {
+    margin: auto;
+  }
+}
+
+@media (max-width: 250px) {
+  .avatar {
+    width: 95%;
+  }
+  .name {
+    font-size: 20px;
+  }
+}

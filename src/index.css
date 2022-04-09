@@ -1,0 +1,9 @@
+body {
+  background-color: lightgrey;
+}
+
+@media (max-width: 250px) {
+  body {
+    background-color: white;
+  }
+}
