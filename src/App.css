@@ -48,7 +48,23 @@
   font: var(--main-font);
 }
 
+.aboutMe-links {
+  display: flex;
+  margin: 20px auto;
+  width: 90%;
+  border-top: 1px solid var(--header-background-color);
+  font: var(--main-font);
+}
 
+.aboutMe-links > nav {
+  border-right: 1px solid var(--header-background-color);
+  padding-right: 20px;
+}
+
+.aboutMe-link {
+  display: block;
+  padding: 10px 0;
+}
 
 @media (max-width: 600px) {
   .businessCard {
