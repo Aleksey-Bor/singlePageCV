@@ -66,6 +66,14 @@
   padding: 10px 0;
 }
 
+.active {
+  font-weight: bold;
+}
+
+.main-content {
+  padding: 10px;
+}
+
 @media (max-width: 600px) {
   .businessCard {
     flex-direction: column-reverse;
@@ -75,6 +83,18 @@
   }
   .contacts {
     margin: auto;
+  }
+  .aboutMe-links {
+    flex-direction: column;
+  }
+  .aboutMe-link {
+    display: inline;
+    padding: 10px 5px;
+  }
+  .aboutMe-links > nav {
+    border-right: none;
+    border-bottom: 1px solid var(--header-background-color);
+    padding-right: 20px;
   }
 }
 
