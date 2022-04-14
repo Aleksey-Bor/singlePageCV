@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const counterSlice = createSlice({
+const slice = createSlice({
   name: "state",
   initialState: {
     aboutMe: [
@@ -18,7 +18,7 @@ const counterSlice = createSlice({
           "JS / TypeScript",
           "React / Redux",
           "jQuery",
-          "Webpack Basics",
+          "Webpack basics",
           "Git / GitHub",
         ],
       },
@@ -27,4 +27,4 @@ const counterSlice = createSlice({
   },
 });
 
-export default counterSlice.reducer;
+export default slice.reducer;

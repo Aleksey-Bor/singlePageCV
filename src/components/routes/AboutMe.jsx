@@ -3,7 +3,7 @@ import { NavLink, Outlet } from "react-router-dom";
 import { useSelector } from "react-redux";
 
 const AboutMe = () => {
-  let aboutMeSections = useSelector((state) => state.counter.aboutMe);
+  let aboutMeSections = useSelector((state) => state.state.aboutMe);
 
   return (
     <div className="aboutMe-links">

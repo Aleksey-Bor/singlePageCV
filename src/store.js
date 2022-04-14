@@ -3,6 +3,6 @@ import initialStateCreator from "./features/initialStateCreator";
 
 export default configureStore({
   reducer: {
-    counter: initialStateCreator,
+    state: initialStateCreator,
   },
 });
