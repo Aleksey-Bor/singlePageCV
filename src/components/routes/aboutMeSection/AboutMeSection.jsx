@@ -1,6 +1,10 @@
+import React from "react";
+import AboutMeSectionTypeA from "./AboutMeSectionTypeA";
+import AboutMeSectionTypeB from "./AboutMeSectionTypeB";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import getAboutMeSection from "../../helpers/getAboutMeSection";
+import isObject from "../../helpers/isObject";
 import ListCreator from "../../helpers/ListCreator";
 
 export default function AboutMeSection() {
@@ -11,12 +15,15 @@ export default function AboutMeSection() {
     aboutMeSections
   );
 
+  let isTypeA = isObject(aboutMeSection.context);
+
   return (
-    <main className="main-content">
-      <h2>{aboutMeSection.sectionName}</h2>
-      <p>
-        {Array.isArray(aboutMeSection.context) ? <ListCreator arrayData ={aboutMeSection.context}/> : aboutMeSection.context}{" "}
-      </p>
-    </main>
+    <div>
+      {isTypeA ? (
+        <AboutMeSectionTypeA aboutMeSection={aboutMeSection}/>
+      ) : (
+        <AboutMeSectionTypeB aboutMeSection={aboutMeSection} />
+      )}
+    </div>
   );
 }
