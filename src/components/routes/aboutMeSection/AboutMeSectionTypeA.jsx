@@ -1,34 +1,26 @@
 import React from "react";
-import { useParams } from "react-router-dom";
-import { useSelector } from "react-redux";
-import getAboutMeSection from "../../helpers/getAboutMeSection";
+import getStageKeyContext from "../../helpers/getStageKeyContext";
 import ListCreator from "../../helpers/ListCreator";
 
 export default function AboutMeSectionTypeA(props) {
-  let aboutMeSection = props.aboutMeSection;
+  let aboutMeSectionContext = props.aboutMeSection.context;
 
   return (
     <main className="main-content">
-      <h4>{aboutMeSection.context.stage4.header}</h4>
-      <p>{aboutMeSection.context.stage4.subheader}</p>
-      <h4>{aboutMeSection.context.stage3.header}</h4>
-      <p>{aboutMeSection.context.stage3.subheader}</p>
-      <div>
-        {aboutMeSection.context.stage3.listHeader}:
-        <ul>
-          <ListCreator arrayData={aboutMeSection.context.stage3.listContext} />
-        </ul>
-      </div>
-      <h4>{aboutMeSection.context.stage2.header}</h4>
-      <p>{aboutMeSection.context.stage2.subheader}</p>
-      <div>
-        {aboutMeSection.context.stage2.listHeader}:
-        <ul>
-          <ListCreator arrayData={aboutMeSection.context.stage2.listContext} />
-        </ul>
-      </div>
-      <h4>{aboutMeSection.context.stage1.header}</h4>
-      <p>{aboutMeSection.context.stage1.subheader}</p>
+      {getStageKeyContext(aboutMeSectionContext).map((obj) => {
+        return (
+          <div>
+            {obj.header ? <h4>{obj.header}</h4> : null}
+            {obj.subheader ? <p>{obj.subheader}</p> : null}
+            {obj.listContext ? (
+              <div>
+                {obj.listHeader}:
+                <ListCreator arrayData={obj.listContext} />
+              </div>
+            ) : null}
+          </div>
+        );
+      })}
     </main>
   );
 }
