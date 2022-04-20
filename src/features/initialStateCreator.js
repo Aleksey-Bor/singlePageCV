@@ -29,7 +29,8 @@ const slice = createSlice({
         context: {
           stage4: {
             header: "April 2020 - tody: I'm learning Javascript and React on my own",
-            subheader: "You can see some of my projects in the \"Portfolio\" section of this resume."
+            subheader: "You can see some of my projects in the \"Portfolio\" section of this resume.",
+            id: 4
           },
           stage3: {
             header: "2009 – 2021: Individual entrepreneur",
@@ -38,7 +39,8 @@ const slice = createSlice({
             listContext: [
               "trading agent",
               "supervisor of the trading team"
-            ]
+            ],
+            id: 3
           },
           stage2: {
             header: "2007-2009: Vladprodimport - distribution, wholesale",
@@ -47,10 +49,12 @@ const slice = createSlice({
             listContext: [
               "trading agent",
               "supervisor of the trading team"
-            ]
+            ],
+            id: 2
           },
           stage1: {
             header: "2000 – 2007: Educator-psychologist, Smorgon Social and Pedagogical Center",
+            id: 1
           }
         }
       }

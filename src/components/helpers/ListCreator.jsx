@@ -5,7 +5,7 @@ const ListCreator = (props) => {
   return (
     <ul>
       {data.map((el) => (
-        <li key={el.id}>{el}</li>
+        <li key={data.indexOf(el)}>{el}</li>
       ))}
     </ul>
   );

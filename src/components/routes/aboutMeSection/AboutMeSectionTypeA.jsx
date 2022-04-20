@@ -4,12 +4,12 @@ import ListCreator from "../../helpers/ListCreator";
 
 export default function AboutMeSectionTypeA(props) {
   let aboutMeSectionContext = props.aboutMeSection.context;
-
+  debugger
   return (
     <main className="main-content">
       {getStageKeyContext(aboutMeSectionContext).map((obj) => {
         return (
-          <div>
+          <div key={obj.id}>
             {obj.header ? <h4>{obj.header}</h4> : null}
             {obj.subheader ? <p>{obj.subheader}</p> : null}
             {obj.listContext ? (
