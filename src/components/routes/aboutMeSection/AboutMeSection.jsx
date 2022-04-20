@@ -5,7 +5,6 @@ import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import getAboutMeSection from "../../helpers/getAboutMeSection";
 import isObject from "../../helpers/isObject";
-import ListCreator from "../../helpers/ListCreator";
 
 export default function AboutMeSection() {
   let params = useParams();
