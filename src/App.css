@@ -79,12 +79,16 @@
   margin-bottom: 10px;
 }
 
-.main-content div:first-child h4 {
+.main-content div:nth-child(2) h4 {
   margin-top: 20px;
 }
 
 .main-content p {
   margin-top: auto;
+}
+
+.label {
+  font: var( --bold-font);
 }
 
 @media (max-width: 600px) {
@@ -101,7 +105,7 @@
     flex-direction: column;
   }
   .aboutMe-link {
-    display: inline;
+    display: inline-block;
     padding: 10px 5px;
   }
   .aboutMe-links > nav {

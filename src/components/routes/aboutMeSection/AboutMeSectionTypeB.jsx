@@ -1,7 +1,4 @@
 import React from "react";
-import { useParams } from "react-router-dom";
-import { useSelector } from "react-redux";
-import getAboutMeSection from "../../helpers/getAboutMeSection";
 import ListCreator from "../../helpers/ListCreator";
 
 export default function AboutMeSectionTypeB(props) {
@@ -9,20 +6,38 @@ export default function AboutMeSectionTypeB(props) {
 
   return (
     <main className="main-content">
-      <h2>{aboutMeSection.sectionName}</h2>
-      <p>
+      <h3>{aboutMeSection.sectionName}</h3>
+      {aboutMeSection.linkLabel ? (
+        <p>
+          <span className="label">{aboutMeSection.linkLabel}: </span>
+          <a href={aboutMeSection.linkUrl}>{aboutMeSection.linkUrl}</a>
+        </p>
+      ) : null}
+      <div>
         {Array.isArray(aboutMeSection.context) ? (
-          <ListCreator arrayData={aboutMeSection.context} />
+          <div>
+            {aboutMeSection.listHeader ? (
+              <span className="label">{aboutMeSection.listHeader}</span>
+            ) : null}
+
+            <ListCreator arrayData={aboutMeSection.context} />
+          </div>
         ) : (
           aboutMeSection.context
         )}{" "}
-      </p>
+      </div>
       {aboutMeSection.englishLevelCertificate ? (
         <p>
           English level certificate:{" "}
           <a href={aboutMeSection.englishLevelCertificate} target="_blank">
-            A2
+            {aboutMeSection.englishLevelMarker}
           </a>
+        </p>
+      ) : null}
+      {aboutMeSection.label ? (
+        <p>
+          <span className="label">{aboutMeSection.label}: </span>
+          <span>{aboutMeSection.addInform}</span>
         </p>
       ) : null}
     </main>
