@@ -4,7 +4,8 @@ import { useSelector } from "react-redux";
 
 export default function PortfolioSection() {
   let params = useParams();
-  let aboutMeSections = useSelector((state) => state.state.aboutMe);
+  let portfolioSections = useSelector((state) => state.state.portfolio);
+  console.log(portfolioSections)
 /*   let aboutMeSection = getAboutMeSection(
     parseInt(params.aboutMeSectionId, 10),
     aboutMeSections
