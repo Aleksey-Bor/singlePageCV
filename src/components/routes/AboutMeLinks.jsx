@@ -6,11 +6,11 @@ const AboutMeLinks = () => {
   let aboutMeSections = useSelector((state) => state.state.aboutMe);
 
   return (
-    <div className="aboutMe-links">
+    <div className="nav-links">
       <nav>
         {aboutMeSections.map((aboutMeSection) => (
           <NavLink
-            className="aboutMe-link"
+            className="nav-link"
             to={`/aboutme/${aboutMeSection.id}`}
             key={aboutMeSection.id}
           >

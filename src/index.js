@@ -5,6 +5,7 @@ import App from "./App";
 import AboutMeLinks from "./components/routes/AboutMeLinks";
 import PortfolioLinks from "./components/routes/PortfolioLinks";
 import AboutMeSection from "./components/routes/aboutMeSection/AboutMeSection";
+import PortfolioSection from "./components/routes/PortfolioSection/PortfolioSection";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import store from "./store";
 import { Provider } from "react-redux";
@@ -28,7 +29,20 @@ root.render(
               />
               <Route path=":aboutMeSectionId" element={<AboutMeSection />} />
             </Route>
-            <Route path="portfolio" element={<PortfolioLinks />} />
+            <Route path="portfolio" element={<PortfolioLinks />}>
+              <Route
+                index
+                element={
+                  <main className="main-content">
+                    <p>Select a section</p>
+                  </main>
+                }
+              />
+              <Route
+                path=":portfolioSectionId"
+                element={<PortfolioSection />}
+              />
+            </Route>
           </Route>
           <Route
             path="*"
