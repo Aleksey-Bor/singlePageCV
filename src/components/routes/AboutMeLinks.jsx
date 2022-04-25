@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-const AboutMe = () => {
+const AboutMeLinks = () => {
   let aboutMeSections = useSelector((state) => state.state.aboutMe);
 
   return (
@@ -23,4 +23,4 @@ const AboutMe = () => {
   );
 };
 
-export default AboutMe;
+export default AboutMeLinks;

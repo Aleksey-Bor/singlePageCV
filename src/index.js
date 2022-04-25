@@ -2,8 +2,8 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import AboutMe from "./components/routes/AboutMe";
-import Portfolio from "./components/routes/Portfolio";
+import AboutMeLinks from "./components/routes/AboutMeLinks";
+import PortfolioLinks from "./components/routes/PortfolioLinks";
 import AboutMeSection from "./components/routes/aboutMeSection/AboutMeSection";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import store from "./store";
@@ -17,7 +17,7 @@ root.render(
       <Provider store={store}>
         <Routes>
           <Route path="/" element={<App />}>
-            <Route path="aboutme" element={<AboutMe />}>
+            <Route path="aboutme" element={<AboutMeLinks />}>
               <Route
                 index
                 element={
@@ -28,7 +28,7 @@ root.render(
               />
               <Route path=":aboutMeSectionId" element={<AboutMeSection />} />
             </Route>
-            <Route path="portfolio" element={<Portfolio />} />
+            <Route path="portfolio" element={<PortfolioLinks />} />
           </Route>
           <Route
             path="*"

@@ -1,8 +1,8 @@
 import React from "react";
 import PortfolioSection from "./PortfolioSection/PortfolioSection";
 
-const Portfolio = () => {
+const PortfolioLinks = () => {
   return <PortfolioSection />;
 }
 
-export default Portfolio;
+export default PortfolioLinks;
