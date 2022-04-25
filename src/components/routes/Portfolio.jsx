@@ -1,7 +1,8 @@
 import React from "react";
+import PortfolioSection from "./PortfolioSection/PortfolioSection";
 
 const Portfolio = () => {
-  return <h3>Portfolio</h3>;
+  return <PortfolioSection />;
 }
 
 export default Portfolio;

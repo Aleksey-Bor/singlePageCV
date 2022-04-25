@@ -121,7 +121,46 @@ const slice = createSlice({
         addInform: "I completed my compulsory military service in 2001-2002",
       },
     ],
-    portfolio: [],
+    portfolio: [
+      {
+        projectName: "Social Network",
+        id: 1,
+        projectUrl: "",
+        context:
+          "use this project to get the knowledge needed to work with React*.",
+        notes:
+          "*- Responsive design is not a priority at this stage and will be added at the end of the project.",
+        skilLsLabel:
+          "The following skills and concepts were applied in the project",
+        skills: [
+          "Installing React",
+          "SPA",
+          "CSS modules",
+          "Routing and react-router-dom library",
+          "FLUX",
+          "REDUX and react-redux library",
+          "props",
+          "callback, subscribe, observer",
+          "action creator, action type",
+          "reducer",
+          "connect, mapSTateToProps, mapDispatchToProps",
+          "REST API",
+          "Functional and Class Components",
+          "Presentation and Container Component",
+          "life circle methods",
+          "Hooks",
+          "HOC",
+          "AJAX",
+          "DAL",
+          "axios",
+          "Redux-thunk",
+          "Redirect, React.lazy, React.Suspense",
+          "Typing in React and TypeScript",
+          "Deploy React App to GitHub-pages",
+          "and other",
+        ],
+      },
+    ],
   },
 });
 

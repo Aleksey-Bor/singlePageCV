@@ -6,7 +6,7 @@ import AboutMe from "./components/routes/AboutMe";
 import Portfolio from "./components/routes/Portfolio";
 import AboutMeSection from "./components/routes/aboutMeSection/AboutMeSection";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import store from "./store"
+import store from "./store";
 import { Provider } from "react-redux";
 
 const root = createRoot(document.getElementById("root"));
@@ -30,6 +30,14 @@ root.render(
             </Route>
             <Route path="portfolio" element={<Portfolio />} />
           </Route>
+          <Route
+            path="*"
+            element={
+              <main style={{ padding: "1rem" }}>
+                <p>There's nothing here!</p>
+              </main>
+            }
+          />
         </Routes>
       </Provider>
     </BrowserRouter>
