@@ -127,12 +127,12 @@ const slice = createSlice({
         id: 1,
         projectUrl: "",
         context:
-          "I use this project to get the knowledge needed to work with React*.",
+          "I use this project to get the knowledge needed to work with React.*",
         notes:
           "*- Responsive design is not a priority at this stage and will be added at the end of the project.",
         skilLsLabel:
           "The following skills and concepts were applied in the project",
-        skills: [
+        skillsList: [
           "Installing React",
           "SPA",
           "CSS modules",

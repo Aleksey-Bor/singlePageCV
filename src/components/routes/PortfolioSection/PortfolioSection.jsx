@@ -17,6 +17,18 @@ export default function PortfolioSection() {
   return (
     <main className="main-content">
       <h3>{portfolioSection.sectionName}</h3>
+      <p>{portfolioSection.context}</p>
+      {portfolioSection.skillsList ? (
+        <div>
+          {portfolioSection.skilLsLabel}:
+          <ul>
+            {portfolioSection.skillsList.map((skill) => (
+              <li>{skill}</li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
+      {portfolioSection.notes ? <p>{portfolioSection.notes}</p> : null}
     </main>
   );
 }

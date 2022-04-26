@@ -2,9 +2,9 @@ import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
 
 const NavLinksCreator = (props) => {
-  // debugger
   let sections = props.sections;
   let baseUrl = props.baseUrl;
+  
   return (
     <div className="nav-links">
       <nav>
