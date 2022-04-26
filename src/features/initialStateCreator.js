@@ -123,7 +123,7 @@ const slice = createSlice({
     ],
     portfolio: [
       {
-        projectName: "Social Network",
+        sectionName: "Social Network",
         id: 1,
         projectUrl: "",
         context:

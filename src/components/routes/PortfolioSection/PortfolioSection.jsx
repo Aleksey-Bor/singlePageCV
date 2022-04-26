@@ -16,7 +16,7 @@ export default function PortfolioSection() {
 
   return (
     <main className="main-content">
-      <h3>{portfolioSection.projectName}</h3>
+      <h3>{portfolioSection.sectionName}</h3>
     </main>
   );
 }

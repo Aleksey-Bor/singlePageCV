@@ -1,26 +1,13 @@
 import React from "react";
-import { NavLink, Outlet } from "react-router-dom";
+import NavLinksCreator from "../helpers/NavLinksCreator";
 import { useSelector } from "react-redux";
 
-const AboutMeLinks = () => {
-  let aboutMeSections = useSelector((state) => state.state.aboutMe);
 
-  return (
-    <div className="nav-links">
-      <nav>
-        {aboutMeSections.map((aboutMeSection) => (
-          <NavLink
-            className="nav-link"
-            to={`/aboutme/${aboutMeSection.id}`}
-            key={aboutMeSection.id}
-          >
-            {aboutMeSection.sectionName}
-          </NavLink>
-        ))}
-      </nav>
-      <Outlet />
-    </div>
-  );
+const AboutMeLinks = () => {
+  let sections = useSelector((state) => state.state.aboutMe);
+  let baseUrl = "/aboutme/";
+
+  return <NavLinksCreator sections={sections} baseUrl={baseUrl} />;
 };
 
 export default AboutMeLinks;
