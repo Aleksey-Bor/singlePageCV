@@ -5,14 +5,11 @@ import getSection from "../../helpers/getSection";
 
 export default function PortfolioSection() {
   let params = useParams();
-  // console.log(params);
   let portfolioSections = useSelector((state) => state.state.portfolio);
   let portfolioSection = getSection(
     parseInt(params.portfolioSectionId, 10),
     portfolioSections
   );
-  // debugger
-  // console.log(portfolioSection);
 
   return (
     <main className="main-content">
