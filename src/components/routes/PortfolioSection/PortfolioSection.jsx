@@ -2,7 +2,6 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import getSection from "../../helpers/getSection";
-import socialNetworkScreen from "../../../assets/social_network.jpg";
 
 export default function PortfolioSection() {
   let params = useParams();
@@ -16,9 +15,15 @@ export default function PortfolioSection() {
     <main className="main-content">
       <h3>{portfolioSection.sectionName}</h3>
 
-      <div className="screenWrapper">
-        <img className="screen" src={socialNetworkScreen} />
-      </div>
+      {portfolioSection.screen ? (
+        <div className="screenWrapper">
+          <img
+            className="screen"
+            src={portfolioSection.screen}
+            alt="My Front-end development"
+          />
+        </div>
+      ) : null}
 
       <p>{portfolioSection.context}</p>
       {portfolioSection.skillsList ? (

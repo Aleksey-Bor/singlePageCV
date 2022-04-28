@@ -1,4 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
+import socialNetworkScreen from "../assets/social_network.jpg";
+import retoartScreen from "../assets/retoart.jpg";
 
 const slice = createSlice({
   name: "state",
@@ -162,11 +164,31 @@ const slice = createSlice({
         projectUrl: "https://aleksey-bor.github.io/social_network/#/login",
         login: "free@samuraijs.com",
         password: "free",
-        Interest: "Try editing your profile. Enter incorrect data in the forms.",
+        Interest:
+          "Try editing your profile. Enter incorrect data in the forms.",
+        screen: socialNetworkScreen,
       },
       {
         sectionName: "RETOART",
         id: 2,
+        context:
+          "RETOART - is my first work that I did completely by myself in February 2020. Everything from design to content was created by me. It was a real business card site for real-life photo retouchers.",
+        skilLsLabel:
+          "The following skills and concepts were applied in the project",
+        skillsList: [
+          "Basic knowledge of CSS and HTML",
+          "Responsive Design and Media Expressions",
+          "CSS Hierarchical Selectors",
+          "CSS animation",
+          "Block and Flex layout",
+          "Creating simple sliders with Javascript",
+          "and other",
+        ],
+        projectUrl:
+          "https://aleksey-bor.github.io/retoart/index.html#StartHome",
+        Interest:
+          'Hover your mouse over the photo retouching examples in the "Services" section to see an interesting animation solution on pure CSS. Change the width of the browser window to see how the site design changes.',
+        screen: retoartScreen,
       },
     ],
   },
