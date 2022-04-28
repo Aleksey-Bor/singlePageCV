@@ -125,7 +125,6 @@ const slice = createSlice({
       {
         sectionName: "Social Network",
         id: 1,
-        projectUrl: "",
         context:
           "I use this project to get the knowledge needed to work with React.*",
         notes:
@@ -160,7 +159,7 @@ const slice = createSlice({
           "Deploy React App to GitHub-pages",
           "and other",
         ],
-        link: "https://aleksey-bor.github.io/social_network/#/login",
+        projectUrl: "https://aleksey-bor.github.io/social_network/#/login",
         login: "free@samuraijs.com",
         password: "free",
         Interest: "Try editing your profile. Enter incorrect data in the forms.",

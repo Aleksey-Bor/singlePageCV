@@ -31,10 +31,10 @@ export default function PortfolioSection() {
           </ul>
         </div>
       ) : null}
-      {portfolioSection.link ? (
+      {portfolioSection.projectUrl ? (
         <p>
           You can test this project from this link:{" "}
-          <a href={portfolioSection.link} target="_blank">
+          <a href={portfolioSection.projectUrl} target="_blank">
             {portfolioSection.sectionName.toUpperCase()}
           </a>
         </p>
