@@ -1,6 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import socialNetworkScreen from "../assets/social_network.jpg";
 import retoartScreen from "../assets/retoart.jpg";
+import clockScreen from "../assets/clock.jpg";
 
 const slice = createSlice({
   name: "state",
@@ -187,8 +188,30 @@ const slice = createSlice({
         projectUrl:
           "https://aleksey-bor.github.io/retoart/index.html#StartHome",
         Interest:
-          'Hover your mouse over the photo retouching examples in the "Services" section to see an interesting animation solution on pure CSS. Change the width of the browser window to see how the site design changes.',
+          'Hover your mouse over the photo retouching examples in the "Услуги" section to see an interesting animation solution on pure CSS. Change the width of the browser window to see how the site design changes.',
         screen: retoartScreen,
+      },
+      {
+        sectionName: "Clock",
+        id: 3,
+        context:
+          "This is a watch with synchronized analog and digital dials. If you download them in your browser on New Year's Eve, you will be in for a surprise.",
+        skilLsLabel:
+          "The following skills and concepts were applied in the project",
+        skillsList: [
+          "DOM",
+          "Object Oriented Programming",
+          "Date object",
+          "Date Constructor",
+          "Scheduling: setInterval",
+          "DOM animation",
+          "and other",
+        ],
+        projectUrl:
+          "https://aleksey-bor.github.io/clock/",
+        Interest:
+          ' The watch brand is a link, by clicking on it you can see information about their author :))',
+        screen: clockScreen,
       },
     ],
   },
