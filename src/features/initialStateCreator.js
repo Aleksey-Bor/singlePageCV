@@ -109,7 +109,7 @@ const slice = createSlice({
         sectionName: "Additionally",
         id: 5,
         linkLabel: "My Github",
-        linkUrl: "https://github.com/Aleksey-Bor,",
+        linkUrl: "https://github.com/Aleksey-Bor",
         listHeader: "Professional interests:",
         context: [
           "All about Front-end Science",
@@ -207,10 +207,9 @@ const slice = createSlice({
           "DOM animation",
           "and other",
         ],
-        projectUrl:
-          "https://aleksey-bor.github.io/clock/",
+        projectUrl: "https://aleksey-bor.github.io/clock/",
         Interest:
-          ' The watch brand is a link, by clicking on it you can see information about their author :))',
+          " The watch brand is a link, by clicking on it you can see information about their author :))",
         screen: clockScreen,
       },
     ],

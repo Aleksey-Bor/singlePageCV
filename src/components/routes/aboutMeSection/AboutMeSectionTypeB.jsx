@@ -10,7 +10,7 @@ export default function AboutMeSectionTypeB(props) {
       {aboutMeSection.linkLabel ? (
         <p>
           <span className="label">{aboutMeSection.linkLabel}: </span>
-          <a href={aboutMeSection.linkUrl}>{aboutMeSection.linkUrl}</a>
+          <a href={aboutMeSection.linkUrl} target="_blank">{aboutMeSection.linkUrl}</a>
         </p>
       ) : null}
       <div>
