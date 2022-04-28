@@ -3,6 +3,7 @@
   --bold-font: bold 16px Arial;
   --header-font: bold 16px Arial;
   --main-font: normal 16px Arial;
+  --notes-font: normal 12px Arial;
   --app-background-color: white;
   --header-background-color: #1a0dab;
   --header-font-color: white;
@@ -88,7 +89,15 @@
 }
 
 .label {
-  font: var( --bold-font);
+  font: var(--bold-font);
+}
+
+.screenWrapper {
+  margin-bottom: 30px;
+}
+
+.notes {
+  font: var(--notes-font);
 }
 
 @media (max-width: 600px) {
@@ -113,13 +122,19 @@
     border-bottom: 1px solid var(--header-background-color);
     padding-right: 20px;
   }
+  .screen {
+    width: 95%;
+  }
 }
 
-@media (max-width: 250px) {
+@media (max-width: 300px) {
   .avatar {
     width: 95%;
   }
   .name {
     font-size: 20px;
+  }
+  .screen {
+    display: none;
   }
 }

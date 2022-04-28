@@ -1,3 +1,3 @@
 export default function isObject(context) {
-  return context && context.constructor === Object
+  return context && context.constructor === Object;
 }

@@ -129,7 +129,7 @@ const slice = createSlice({
         context:
           "I use this project to get the knowledge needed to work with React.*",
         notes:
-          "*- Responsive design is not a priority at this stage and will be added at the end of the project.",
+          "*- At this stage of project development, responsive design is not a priority and will be added at the end of the project.",
         skilLsLabel:
           "The following skills and concepts were applied in the project",
         skillsList: [
@@ -154,11 +154,16 @@ const slice = createSlice({
           "DAL",
           "axios",
           "Redux-thunk",
+          "Redux-form ;)",
           "Redirect, React.lazy, React.Suspense",
           "Typing in React and TypeScript",
           "Deploy React App to GitHub-pages",
           "and other",
         ],
+        link: "https://aleksey-bor.github.io/social_network/#/login",
+        login: "free@samuraijs.com",
+        password: "free",
+        Interest: "Try editing your profile. Enter incorrect data in the forms.",
       },
       {
         sectionName: "RETOART",
