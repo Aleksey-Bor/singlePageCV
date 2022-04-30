@@ -49,6 +49,11 @@
   font: var(--main-font);
 }
 
+.app-navigation > a {
+  display: inline-block;
+  padding-top: 8px;
+}
+
 .nav-links {
   display: flex;
   margin: 20px auto;
