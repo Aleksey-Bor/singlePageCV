@@ -177,8 +177,6 @@ const slice = createSlice({
         id: 2,
         context:
           "RETOART - is my first work that I did completely by myself in February 2020. Everything from design to content was created by me. It was a real business card site for real-life photo retouchers.",
-        notes:
-          "* - At this stage of project development, responsive design is not a priority and will be added at the end of the project.",
         skilLsLabel:
           "The following skills and concepts were applied in the project",
         skillsList: [

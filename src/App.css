@@ -65,6 +65,7 @@
 .nav-link {
   display: block;
   padding: 10px 0;
+  min-width: 128px;
 }
 
 .active {
