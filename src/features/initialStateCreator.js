@@ -4,6 +4,7 @@ import retoartScreen from "../assets/retoart.jpg";
 import clockScreen from "../assets/clock.jpg";
 import ticTacToeScreen from "../assets/tic_tac.jpg";
 import calculatorScreen from "../assets/calculator.jpg";
+import fifteenGameScreen from "../assets/fifteen_game.jpg";
 
 const slice = createSlice({
   name: "state",
@@ -253,6 +254,26 @@ const slice = createSlice({
         Interest:
           "It was very interesting to solve the problem of correct calculations with negative numbers and decimal fractions, raising a number to a power, extracting a square root.",
         screen: calculatorScreen,
+      },
+      {
+        sectionName: "Fifteen Game",
+        id: 6,
+        context:
+          'This is the famous "Fifteen" puzzle, where the chips should be arranged sequentially from the chip with the smallest value to the chip with the largest value.*',
+        notes: "* - The application works correctly only on the Desktop.",
+        skilLsLabel:
+          "The following skills and concepts were applied in the project",
+        skillsList: [
+          "DOM",
+          "DOM animation",
+          "bubbling, sinking, and event delegation",
+          "Drag-and-drop elements",
+          "and other",
+        ],
+        projectUrl: "https://puzle15.alieksieiborko1.repl.co/",
+        Interest:
+          "It was very interesting to implement that the chips were moved simultaneously by dragging and dropping and by clicking. It was also necessary to solve the problem so that the chips distributed randomly fell into the DOM only in a combination that can be solved.",
+        screen: fifteenGameScreen,
       },
     ],
   },
