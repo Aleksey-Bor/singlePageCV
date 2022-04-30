@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import socialNetworkScreen from "../assets/social_network.jpg";
 import retoartScreen from "../assets/retoart.jpg";
 import clockScreen from "../assets/clock.jpg";
+import ticTacToeScreen from "../assets/tic_tac.jpg";
 
 const slice = createSlice({
   name: "state",
@@ -174,6 +175,8 @@ const slice = createSlice({
         id: 2,
         context:
           "RETOART - is my first work that I did completely by myself in February 2020. Everything from design to content was created by me. It was a real business card site for real-life photo retouchers.",
+        notes:
+          "* - At this stage of project development, responsive design is not a priority and will be added at the end of the project.",
         skilLsLabel:
           "The following skills and concepts were applied in the project",
         skillsList: [
@@ -211,6 +214,28 @@ const slice = createSlice({
         Interest:
           " The watch brand is a link, by clicking on it you can see information about their author :))",
         screen: clockScreen,
+      },
+      {
+        sectionName: "Tic Tac Toe",
+        id: 4,
+        context:
+          "With the help of this game, I first got acquainted with React.*",
+        notes: "* - The application works correctly only on the Desktop.",
+        skilLsLabel:
+          "The following skills and concepts were applied in the project",
+        skillsList: [
+          "Installing React",
+          "Class Components",
+          "props",
+          "callback",
+          "Component lifecycle",
+          "Component state and state management",
+          "and other",
+        ],
+        projectUrl: "https://aleksey-bor.github.io/React_tic_tac-toe/",
+        Interest:
+          "Check how correctly the game determines the winner. With move logging, you can always undo a move if you want.",
+        screen: ticTacToeScreen,
       },
     ],
   },
