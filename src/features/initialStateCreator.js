@@ -3,6 +3,7 @@ import socialNetworkScreen from "../assets/social_network.jpg";
 import retoartScreen from "../assets/retoart.jpg";
 import clockScreen from "../assets/clock.jpg";
 import ticTacToeScreen from "../assets/tic_tac.jpg";
+import calculatorScreen from "../assets/calculator.jpg";
 
 const slice = createSlice({
   name: "state",
@@ -236,6 +237,22 @@ const slice = createSlice({
         Interest:
           "Check how correctly the game determines the winner. With move logging, you can always undo a move if you want.",
         screen: ticTacToeScreen,
+      },
+      {
+        sectionName: "Calculator",
+        id: 5,
+        context:
+          "The finished tabular layout should be revived with the functionality of the calculator*",
+        notes:
+          "* - Since the start layout is made in the form of a rigid table, the application is displayed correctly only on the desktop.",
+        skilLsLabel:
+          "The following skills and concepts were applied in the project",
+        skillsList: ["DOM", "Functional programming", "and other"],
+        projectUrl:
+          "https://rolling-scopes-school.github.io/aleksey-bor-JS2020Q3/calculator/",
+        Interest:
+          "It was very interesting to solve the problem of correct calculations with negative numbers and decimal fractions, raising a number to a power, extracting a square root.",
+        screen: calculatorScreen,
       },
     ],
   },
