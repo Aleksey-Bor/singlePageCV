@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/git@github.com:Aleksey-Bor/singlePageCV.git/static/css/main.895e3119.css",
+    "main.js": "/git@github.com:Aleksey-Bor/singlePageCV.git/static/js/main.a774bfe3.js",
+    "static/media/avatar.jpg": "/git@github.com:Aleksey-Bor/singlePageCV.git/static/media/avatar.859cfcd98e9531aa2860.jpg",
+    "static/media/retoart.jpg": "/git@github.com:Aleksey-Bor/singlePageCV.git/static/media/retoart.46ddca9a627f8c7b34eb.jpg",
+    "static/media/fifteen_game.jpg": "/git@github.com:Aleksey-Bor/singlePageCV.git/static/media/fifteen_game.0c6687e408b6e91660a0.jpg",
+    "static/media/social_network.jpg": "/git@github.com:Aleksey-Bor/singlePageCV.git/static/media/social_network.468d155b9419b726ad9b.jpg",
+    "static/media/tic_tac.jpg": "/git@github.com:Aleksey-Bor/singlePageCV.git/static/media/tic_tac.a7fae7163637629d0118.jpg",
+    "static/media/calculator.jpg": "/git@github.com:Aleksey-Bor/singlePageCV.git/static/media/calculator.77d109a572e0b32eddd0.jpg",
+    "static/media/clock.jpg": "/git@github.com:Aleksey-Bor/singlePageCV.git/static/media/clock.1267e6796e39b311dd7b.jpg",
+    "index.html": "/git@github.com:Aleksey-Bor/singlePageCV.git/index.html",
+    "main.895e3119.css.map": "/git@github.com:Aleksey-Bor/singlePageCV.git/static/css/main.895e3119.css.map",
+    "main.a774bfe3.js.map": "/git@github.com:Aleksey-Bor/singlePageCV.git/static/js/main.a774bfe3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.895e3119.css",
+    "static/js/main.a774bfe3.js"
+  ]
+}
