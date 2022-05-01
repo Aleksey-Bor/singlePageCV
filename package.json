@@ -2,7 +2,7 @@
   "name": "cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "git@github.com:Aleksey-Bor/singlePageCV.git",
+  "homepage": "https://github.com/Aleksey-Bor/singlePageCV.git",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.1",
     "@testing-library/jest-dom": "^5.14.1",
