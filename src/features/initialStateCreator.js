@@ -130,7 +130,7 @@ const slice = createSlice({
     portfolio: [
       {
         sectionName: "Social Network",
-        id: 1,
+        id: 6,
         context:
           "I use this project to get the knowledge needed to work with React.*",
         notes:
@@ -174,7 +174,7 @@ const slice = createSlice({
       },
       {
         sectionName: "RETOART",
-        id: 2,
+        id: 5,
         context:
           "RETOART - is my first work that I did completely by myself in February 2020. Everything from design to content was created by me. It was a real business card site for real-life photo retouchers.",
         skilLsLabel:
@@ -196,7 +196,7 @@ const slice = createSlice({
       },
       {
         sectionName: "Clock",
-        id: 3,
+        id: 4,
         context:
           "This is a watch with synchronized analog and digital dials. If you download them in your browser on New Year's Eve, you will be in for a surprise.",
         skilLsLabel:
@@ -217,7 +217,7 @@ const slice = createSlice({
       },
       {
         sectionName: "Tic Tac Toe",
-        id: 4,
+        id: 3,
         context:
           "With the help of this game, I first got acquainted with React.*",
         notes: "* - The application works correctly only on the Desktop.",
@@ -239,7 +239,7 @@ const slice = createSlice({
       },
       {
         sectionName: "Calculator",
-        id: 5,
+        id: 2,
         context:
           "The finished tabular layout should be revived with the functionality of the calculator*",
         notes:
@@ -255,7 +255,7 @@ const slice = createSlice({
       },
       {
         sectionName: "Fifteen Game",
-        id: 6,
+        id: 1,
         context:
           'This is the famous "Fifteen" puzzle, where the chips should be arranged sequentially from the chip with the smallest value to the chip with the largest value.*',
         notes: "* - The application works correctly only on the Desktop.",
