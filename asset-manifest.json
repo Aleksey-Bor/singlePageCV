@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Aleksey-Bor/singlePageCV.git/static/css/main.895e3119.css",
-    "main.js": "/Aleksey-Bor/singlePageCV.git/static/js/main.29d7aad5.js",
+    "main.js": "/Aleksey-Bor/singlePageCV.git/static/js/main.4959f474.js",
     "static/media/avatar.jpg": "/Aleksey-Bor/singlePageCV.git/static/media/avatar.859cfcd98e9531aa2860.jpg",
     "static/media/retoart.jpg": "/Aleksey-Bor/singlePageCV.git/static/media/retoart.46ddca9a627f8c7b34eb.jpg",
     "static/media/fifteen_game.jpg": "/Aleksey-Bor/singlePageCV.git/static/media/fifteen_game.0c6687e408b6e91660a0.jpg",
@@ -11,10 +11,10 @@
     "static/media/clock.jpg": "/Aleksey-Bor/singlePageCV.git/static/media/clock.1267e6796e39b311dd7b.jpg",
     "index.html": "/Aleksey-Bor/singlePageCV.git/index.html",
     "main.895e3119.css.map": "/Aleksey-Bor/singlePageCV.git/static/css/main.895e3119.css.map",
-    "main.29d7aad5.js.map": "/Aleksey-Bor/singlePageCV.git/static/js/main.29d7aad5.js.map"
+    "main.4959f474.js.map": "/Aleksey-Bor/singlePageCV.git/static/js/main.4959f474.js.map"
   },
   "entrypoints": [
     "static/css/main.895e3119.css",
-    "static/js/main.29d7aad5.js"
+    "static/js/main.4959f474.js"
   ]
 }
