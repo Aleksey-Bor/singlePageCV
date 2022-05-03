@@ -6,7 +6,7 @@ import AboutMeLinks from "./components/routes/AboutMeLinks";
 import PortfolioLinks from "./components/routes/PortfolioLinks";
 import AboutMeSection from "./components/routes/aboutMeSection/AboutMeSection";
 import PortfolioSection from "./components/routes/PortfolioSection/PortfolioSection";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import store from "./store";
 import { Provider } from "react-redux";
 
@@ -14,7 +14,7 @@ const root = createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <Provider store={store}>
         <Routes>
           <Route path="/" element={<App />}>
@@ -54,6 +54,6 @@ root.render(
           />
         </Routes>
       </Provider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
