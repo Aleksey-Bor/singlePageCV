@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/singlePageCV/static/css/main.895e3119.css",
-    "main.js": "/singlePageCV/static/js/main.9e105b74.js",
+    "main.js": "/singlePageCV/static/js/main.18ccaeef.js",
     "static/media/avatar.jpg": "/singlePageCV/static/media/avatar.859cfcd98e9531aa2860.jpg",
     "static/media/retoart.jpg": "/singlePageCV/static/media/retoart.46ddca9a627f8c7b34eb.jpg",
     "static/media/fifteen_game.jpg": "/singlePageCV/static/media/fifteen_game.0c6687e408b6e91660a0.jpg",
@@ -11,10 +11,10 @@
     "static/media/clock.jpg": "/singlePageCV/static/media/clock.1267e6796e39b311dd7b.jpg",
     "index.html": "/singlePageCV/index.html",
     "main.895e3119.css.map": "/singlePageCV/static/css/main.895e3119.css.map",
-    "main.9e105b74.js.map": "/singlePageCV/static/js/main.9e105b74.js.map"
+    "main.18ccaeef.js.map": "/singlePageCV/static/js/main.18ccaeef.js.map"
   },
   "entrypoints": [
     "static/css/main.895e3119.css",
-    "static/js/main.9e105b74.js"
+    "static/js/main.18ccaeef.js"
   ]
 }
