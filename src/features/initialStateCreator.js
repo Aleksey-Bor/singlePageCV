@@ -21,6 +21,7 @@ const slice = createSlice({
         id: 2,
         context: [
           "HTML / CSS",
+          "SASS / SCSS",
           "JS / TypeScript",
           "React / Redux",
           "jQuery",
