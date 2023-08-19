@@ -5,6 +5,7 @@ import clockScreen from "../assets/clock.jpg";
 import ticTacToeScreen from "../assets/tic_tac.jpg";
 import calculatorScreen from "../assets/calculator.jpg";
 import fifteenGameScreen from "../assets/fifteen_game.jpg";
+import logoItSchool from "../assets/logo.png";
 
 const slice = createSlice({
   name: "state",
@@ -37,13 +38,13 @@ const slice = createSlice({
         context: {
           stage4: {
             header:
-              "April 2020 - tody: I'm learning Javascript and React on my own",
+              "April 2020 - today: I'm learning Javascript and React on my own",
             subheader:
               'You can see some of my projects in the "Portfolio" section of this resume.',
             id: 4,
           },
           stage3: {
-            header: "2009 – 2021: Individual entrepreneur",
+            header: "2009 – 2022: Individual entrepreneur",
             subheader: "I worked under a commission agreement.",
             listHeader: "Kind of activity",
             listContext: ["trading agent", "supervisor of the trading team"],
@@ -129,6 +130,27 @@ const slice = createSlice({
       },
     ],
     portfolio: [
+      {
+        sectionName: "IT-School",
+        id: 7,
+        context:
+          "Online School: IT-School is my attempt to share basic knowledge on the topic of web development. Since my diploma profession is a teacher, I believe that I can make good courses for beginners. The first course of my project is the Fundamentals of Website Building. Now this project is frozen, but I want to return to it someday with new inspiration and new knowledge.*",
+        notes: "* - I will be very happy if you visit YouTube or Booty project. You can go to them from the business card site.",
+        skilLsLabel:
+          "The following skills and concepts were applied in the project",
+        skillsList: [
+          "a little React",
+          "a little Redux",
+          "a little HTML, CSS",
+          "a little Bootstrap",
+          "a little pure JS",
+          "And a lot of my soul :)",
+        ],
+        projectUrl: "https://itka-school.github.io/it-school-web/",
+        Interest:
+          "",
+        screen: logoItSchool,
+      },
       {
         sectionName: "Social Network",
         id: 6,
