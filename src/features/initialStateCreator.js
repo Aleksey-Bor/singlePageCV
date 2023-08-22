@@ -23,10 +23,12 @@ const slice = createSlice({
         context: [
           "HTML / CSS",
           "SASS / SCSS",
-          "JS / TypeScript",
+          "JS / TypeScript basics",
           "React / Redux",
           "jQuery",
+          "Bootstrap",
           "Webpack basics",
+          "NodeJS basics",
           "Git / GitHub",
         ],
         englishLevelCertificate: "https://www.efset.org/cert/ejY1ta",
@@ -36,6 +38,13 @@ const slice = createSlice({
         sectionName: "Work experience",
         id: 3,
         context: {
+          stage5: {
+            header:
+              "May 2022 - February 2023: I developed and taught my own online course \"IT-School: WEBSITE DEVELOPMENT BASICS\"",
+            subheader:
+              'You can see some of my projects in the "Portfolio" section of this resume.',
+            id: 5,
+          },
           stage4: {
             header:
               "April 2020 - today: I'm learning Javascript and React on my own",
@@ -70,7 +79,7 @@ const slice = createSlice({
         context: {
           stage4: {
             header:
-              "April 2020 - tody: Studied Java Script and React on my own",
+              "April 2020 - today: Studied Java Script and React on my own",
             listHeader: "Used sources:",
             listContext: [
               "YouTube course: ReactJS - The Samurai Way",
@@ -83,7 +92,7 @@ const slice = createSlice({
           },
           stage3: {
             header:
-              " 2021 - tody: I'm learning English on my own with YouTube courses - English with playlists",
+              " 2021 - today: I'm learning English on my own with YouTube courses - English with playlists",
 
             id: 3,
           },
@@ -131,7 +140,7 @@ const slice = createSlice({
     ],
     portfolio: [
       {
-        sectionName: "IT-School",
+        sectionName: "IT-School: WEBSITE DEVELOPMENT BASICS",
         id: 7,
         context:
           "Online School: IT-School is my attempt to share basic knowledge on the topic of web development. Since my diploma profession is a teacher, I believe that I can make good courses for beginners. The first course of my project is the Fundamentals of Website Building. Now this project is frozen, but I want to return to it someday with new inspiration and new knowledge.*",
