@@ -4,7 +4,7 @@ const Objective = () => {
   return (
     <section>
       <h3 className="header">Objective</h3>
-      <p className="content">Applying for a React Developer Position</p>
+      <p className="content">Applying for a Frontend Developer position (React, JS)</p>
     </section>
   );
 };
