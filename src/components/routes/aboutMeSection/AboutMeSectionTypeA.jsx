@@ -5,7 +5,7 @@ import ListCreator from "../../helpers/ListCreator";
 export default function AboutMeSectionTypeA(props) {
   let aboutMeSection = props.aboutMeSection;
   let aboutMeSectionContext = props.aboutMeSection.context;
-  
+
   return (
     <main className="main-content">
       <h3>{aboutMeSection.sectionName}</h3>

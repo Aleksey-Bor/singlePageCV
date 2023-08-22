@@ -1,12 +1,12 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const AppNavbar = () => {
+const AppNavbar = ({t}) => {
   return (
     <div className="content">
       <nav className="app-navigation">
-        <NavLink to="/aboutme">About Me</NavLink> |{" "}
-        <NavLink to="/portfolio">Portfolio</NavLink>
+        <NavLink to="/aboutme">{t("aboutMe")}</NavLink> |{" "}
+        <NavLink to="/portfolio">{t("portfolio")}</NavLink>
       </nav>
     </div>
   );

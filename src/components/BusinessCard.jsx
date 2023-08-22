@@ -1,11 +1,11 @@
 import React from "react";
 import avatar from "../assets/avatar.jpg";
 
-const BusinessCard = () => {
+const BusinessCard = ({t}) => {
   return (
     <div className="businessCard">
       <div className="contacts">
-        <h1 className="name">Aliaksei Barkouski</h1>
+        <h1 className="name">{t("name")}</h1>
         <p className="contact">
           Phone: <a href="tel:+375291471834">+37529 147-18-34</a>
         </p>

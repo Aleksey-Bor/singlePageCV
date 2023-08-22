@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App";
@@ -9,6 +9,7 @@ import PortfolioSection from "./components/routes/PortfolioSection/PortfolioSect
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import store from "./store";
 import { Provider } from "react-redux";
+import "./i18n";
 
 const root = createRoot(document.getElementById("root"));
 
@@ -17,7 +18,14 @@ root.render(
     <BrowserRouter>
       <Provider store={store}>
         <Routes>
-          <Route path="/" element={<App />}>
+          <Route
+            path="/"
+            element={
+              <Suspense fallback={<div>Loading...</div>}>
+                <App />
+              </Suspense>
+            }
+          >
             <Route path="aboutme" element={<AboutMeLinks />}>
               <Route
                 index

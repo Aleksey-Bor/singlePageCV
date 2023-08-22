@@ -1,22 +1,29 @@
 // i18n.js
 
-import i18n from "i18next";
-import LanguageDetector from "i18next-browser-languagedetector";
-import XHR from "i18next-xhr-backend";
+import i18n from 'i18next'
+import Backend from 'i18next-http-backend'
+import LanguageDetector from 'i18next-browser-languagedetector'
+import { initReactI18next } from 'react-i18next'
 
 i18n
-  .use(XHR)
+  // Подключение бэкенда i18next
+  .use(Backend)
+  // Автоматическое определение языка 
   .use(LanguageDetector)
+  // модуль инициализации
+  .use (initReactI18next)
   .init({
+    // Стандартный язык
+    fallbackLng: 'en',
     debug: true,
-    fallbackLng: "en",
-    backend: {
-      loadPath: `/locales/${lng}/${ns}.json`,
+    // Распознавание и кэширование языковых кук
+    detection: {
+      order: ['queryString', 'cookie'],
+      cache: ['cookie']
     },
-    react: {
-      wait: true,
-      useSuspense: false,
-    },
-  });
+    interpolation: {
+      escapeValue: false
+    }
+  })
 
 export default i18n;
