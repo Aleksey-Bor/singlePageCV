@@ -42,12 +42,12 @@ const slice = createSlice({
             header:
               "May 2022 - February 2023: I developed and taught my own online course \"IT-School: WEBSITE DEVELOPMENT BASICS\"",
             subheader:
-              'You can see some of my projects in the "Portfolio" section of this resume.',
+              'You can find this and some of my other projects in the Portfolio section of this CV.',
             id: 5,
           },
           stage4: {
             header:
-              "April 2020 - today: I'm learning Javascript and React on my own",
+              "April 2020 - Today: I am self-taught web development.",
             subheader:
               'You can see some of my projects in the "Portfolio" section of this resume.',
             id: 4,
@@ -79,8 +79,8 @@ const slice = createSlice({
         context: {
           stage4: {
             header:
-              "April 2020 - today: Studied Java Script and React on my own",
-            listHeader: "Used sources:",
+              "April 2020 – today: Self-taught web development.",
+            listHeader: "Used sources",
             listContext: [
               "YouTube course: ReactJS - The Samurai Way",
               "React official documentation",
@@ -92,17 +92,17 @@ const slice = createSlice({
           },
           stage3: {
             header:
-              " 2021 - today: I'm learning English on my own with YouTube courses - English with playlists",
+              "2021 - today: I'm learning English on my own with YouTube courses - English with playlists",
 
             id: 3,
           },
           stage2: {
             header:
               "August 2019 - March 2020: Studied, Educational Center for Programming and High Tech (IT-Academy)",
-            listHeader: "Courses:",
+            listHeader: "Courses",
             listContext: [
               "Website development using HTML, CSS and JS",
-              "Development of web applications on Java script",
+              "Development of web applications on Java Script",
             ],
             id: 2,
           },
@@ -110,7 +110,7 @@ const slice = createSlice({
             header:
               "2000: Graduated from the Belarusian State Pedagogical University",
             subheader: "Faculty: Natural Science",
-            listHeader: "Specialty: ",
+            listHeader: "Specialty",
             listContext: [
               "Teacher of biology",
               "Psychologist in educational institutions",
@@ -126,9 +126,9 @@ const slice = createSlice({
         linkUrl: "https://github.com/Aleksey-Bor",
         listHeader: "Professional interests:",
         context: [
-          "All about Front-end Science",
-          "A little about the Back-end (I hope I like it too)",
-          "YoTube: IT-INCUBATOR | IT-KAMASUTRA",
+          "All about frontend development",
+          "A bit about the backend (I hope I like it too)",
+          "YouTube: IT INCUBATOR | and many other resources",
           "RS School",
           "IT-Academy",
           "Dev.by",

@@ -1,9 +1,14 @@
 import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import customTranslator from "./customTranslator";
+
 
 const NavLinksCreator = (props) => {
   let sections = props.sections;
   let baseUrl = props.baseUrl;
+
+  const { t, i18n } = useTranslation();
   
   return (
     <div className="nav-links">
@@ -14,7 +19,7 @@ const NavLinksCreator = (props) => {
             to={`${baseUrl}${section.id}`}
             key={section.id}
           >
-            {section.sectionName}
+            {customTranslator(section.sectionName, t, i18n)}
           </NavLink>
         ))}
       </nav>
