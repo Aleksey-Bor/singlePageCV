@@ -15,53 +15,6 @@ import { useTranslation } from "react-i18next";
 const RootComponent = () => {
   const { t, i18n } = useTranslation();
 
-<<<<<<< HEAD
-root.render(
-  <React.StrictMode>
-    <HashRouter>
-      <Provider store={store}>
-        <Routes>
-          <Route path="/" element={<App />}>
-            <Route path="aboutme" element={<AboutMeLinks />}>
-              <Route
-                index
-                element={
-                  <main className="main-content">
-                    <p>Select a section</p>
-                  </main>
-                }
-              />
-              <Route path=":aboutMeSectionId" element={<AboutMeSection />} />
-            </Route>
-            <Route path="portfolio" element={<PortfolioLinks />}>
-              <Route
-                index
-                element={
-                  <main className="main-content">
-                    <p>Select a section</p>
-                  </main>
-                }
-              />
-              <Route
-                path=":portfolioSectionId"
-                element={<PortfolioSection />}
-              />
-            </Route>
-          </Route>
-          <Route
-            path="*"
-            element={
-              <main style={{ padding: "1rem" }}>
-                <p>There's nothing here!</p>
-              </main>
-            }
-          />
-        </Routes>
-      </Provider>
-    </HashRouter>
-  </React.StrictMode>
-);
-=======
   return (
     <React.StrictMode>
       <BrowserRouter>
@@ -124,4 +77,3 @@ root.render(
 
 const root = createRoot(document.getElementById("root"));
 root.render(<RootComponent />);
->>>>>>> develop
