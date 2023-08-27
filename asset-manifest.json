@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.50927439.css",
-    "main.js": "./static/js/main.ad5f20ce.js",
-    "static/media/avatar.jpg": "./static/media/avatar.859cfcd98e9531aa2860.jpg",
-    "static/media/CV-BARKOUSKI _ru.docx": "./static/media/CV-BARKOUSKI _ru.baf35f50f3460bd40b51.docx",
-    "static/media/CV-BARKOUSKI_en.docx": "./static/media/CV-BARKOUSKI_en.5bbca651cd16d9327401.docx",
-    "static/media/logo.png": "./static/media/logo.15ef331d48e46b679a48.png",
-    "static/media/retoart.jpg": "./static/media/retoart.46ddca9a627f8c7b34eb.jpg",
-    "static/media/fifteen_game.jpg": "./static/media/fifteen_game.0c6687e408b6e91660a0.jpg",
-    "static/media/social_network.jpg": "./static/media/social_network.468d155b9419b726ad9b.jpg",
-    "static/media/tic_tac.jpg": "./static/media/tic_tac.a7fae7163637629d0118.jpg",
-    "static/media/calculator.jpg": "./static/media/calculator.77d109a572e0b32eddd0.jpg",
-    "static/media/clock.jpg": "./static/media/clock.1267e6796e39b311dd7b.jpg",
-    "index.html": "./index.html",
-    "static/media/getFetch.cjs": "./static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.50927439.css.map": "./static/css/main.50927439.css.map",
-    "main.ad5f20ce.js.map": "./static/js/main.ad5f20ce.js.map"
+    "main.css": "/singlePageCV/static/css/main.50927439.css",
+    "main.js": "/singlePageCV/static/js/main.4d99802c.js",
+    "static/media/avatar.jpg": "/singlePageCV/static/media/avatar.859cfcd98e9531aa2860.jpg",
+    "static/media/CV-BARKOUSKI _ru.docx": "/singlePageCV/static/media/CV-BARKOUSKI _ru.baf35f50f3460bd40b51.docx",
+    "static/media/CV-BARKOUSKI_en.docx": "/singlePageCV/static/media/CV-BARKOUSKI_en.5bbca651cd16d9327401.docx",
+    "static/media/logo.png": "/singlePageCV/static/media/logo.15ef331d48e46b679a48.png",
+    "static/media/retoart.jpg": "/singlePageCV/static/media/retoart.46ddca9a627f8c7b34eb.jpg",
+    "static/media/fifteen_game.jpg": "/singlePageCV/static/media/fifteen_game.0c6687e408b6e91660a0.jpg",
+    "static/media/social_network.jpg": "/singlePageCV/static/media/social_network.468d155b9419b726ad9b.jpg",
+    "static/media/tic_tac.jpg": "/singlePageCV/static/media/tic_tac.a7fae7163637629d0118.jpg",
+    "static/media/calculator.jpg": "/singlePageCV/static/media/calculator.77d109a572e0b32eddd0.jpg",
+    "static/media/clock.jpg": "/singlePageCV/static/media/clock.1267e6796e39b311dd7b.jpg",
+    "index.html": "/singlePageCV/index.html",
+    "static/media/getFetch.cjs": "/singlePageCV/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.50927439.css.map": "/singlePageCV/static/css/main.50927439.css.map",
+    "main.4d99802c.js.map": "/singlePageCV/static/js/main.4d99802c.js.map"
   },
   "entrypoints": [
     "static/css/main.50927439.css",
-    "static/js/main.ad5f20ce.js"
+    "static/js/main.4d99802c.js"
   ]
 }
