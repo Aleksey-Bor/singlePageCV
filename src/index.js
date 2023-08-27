@@ -6,7 +6,7 @@ import AboutMeLinks from "./components/routes/AboutMeLinks";
 import PortfolioLinks from "./components/routes/PortfolioLinks";
 import AboutMeSection from "./components/routes/aboutMeSection/AboutMeSection";
 import PortfolioSection from "./components/routes/PortfolioSection/PortfolioSection";
-import { Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, HashRouter, BrowserRouter } from "react-router-dom";
 import store from "./store";
 import { Provider } from "react-redux";
 import "./i18n";

@@ -11,7 +11,7 @@ i18n
   // Автоматическое определение языка 
   .use(LanguageDetector)
   // модуль инициализации
-  .use (initReactI18next)
+  .use(initReactI18next)
   .init({
     // Стандартный язык
     fallbackLng: 'en',
@@ -20,6 +20,9 @@ i18n
     detection: {
       order: ['queryString', 'cookie'],
       cache: ['cookie']
+    },
+    backend: {
+      loadPath: '/singlePageCV/locales/{{lng}}/{{ns}}.json'
     },
     interpolation: {
       escapeValue: false
