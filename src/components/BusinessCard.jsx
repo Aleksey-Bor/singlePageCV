@@ -1,7 +1,12 @@
 import React from "react";
 import avatar from "../assets/avatar.jpg";
+import { useTranslation } from "react-i18next";
+import cvRu from "../assets/CV-BARKOUSKI _ru.docx";
+import cvEn from "../assets/CV-BARKOUSKI_en.docx";
 
-const BusinessCard = ({t}) => {
+const BusinessCard = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <div className="businessCard">
       <div className="contacts">
@@ -25,9 +30,24 @@ const BusinessCard = ({t}) => {
             Link to Linkedin
           </a>
         </p>
+        <p>
+          {i18n.language === "en" ? (
+            <a href={cvEn} download>
+              Скачать CV.docx(ENG)
+            </a>
+          ) : (
+            <a href={cvRu} download>
+              Download CV.docx(РУС)
+            </a>
+          )}
+        </p>
       </div>
       <div className="avatarWrapper">
-        <img className="avatar" src={avatar} alt="react developer: Aliaksey Barkouski" />
+        <img
+          className="avatar"
+          src={avatar}
+          alt="react developer: Aliaksey Barkouski"
+        />
       </div>
     </div>
   );

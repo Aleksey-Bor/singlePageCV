@@ -5,7 +5,6 @@ import AppNavbar from "./components/AppNavbar";
 import { Outlet } from "react-router-dom";
 import { useTranslation, withTranslation } from "react-i18next";
 
-const TranslatedBusinessCard = withTranslation()(BusinessCard);
 const TranslatedObjective = withTranslation()(Objective);
 const TranslatedAppNavbar = withTranslation()(AppNavbar);
 
@@ -20,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <TranslatedBusinessCard />
+      <BusinessCard />
       <section className="locales">
         <button onClick={() => changeLanguage()}>
           {i18n.language === "en" ? "РУС" : "ENG"}
