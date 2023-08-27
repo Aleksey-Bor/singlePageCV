@@ -17,7 +17,7 @@ const RootComponent = () => {
 
   return (
     <React.StrictMode>
-      <BrowserRouter>
+      <HashRouter>
         <Provider store={store}>
           <Routes>
             <Route
@@ -70,7 +70,7 @@ const RootComponent = () => {
             />
           </Routes>
         </Provider>
-      </BrowserRouter>
+      </HashRouter>
     </React.StrictMode>
   );
 };
