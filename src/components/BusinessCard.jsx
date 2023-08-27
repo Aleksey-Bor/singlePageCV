@@ -33,11 +33,11 @@ const BusinessCard = () => {
         <p>
           {i18n.language === "en" ? (
             <a href={cvEn} download>
-              Скачать CV.docx(ENG)
+              Download CV.docx(ENG)
             </a>
           ) : (
             <a href={cvRu} download>
-              Download CV.docx(РУС)
+              Скачать CV.docx(РУС)
             </a>
           )}
         </p>
