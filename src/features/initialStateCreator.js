@@ -40,14 +40,13 @@ const slice = createSlice({
         context: {
           stage5: {
             header:
-              "May 2022 - February 2023: I developed and taught my own online course \"IT-School: WEBSITE DEVELOPMENT BASICS\"",
+              'May 2022 - February 2023: I developed and taught my own online course "IT-School: WEBSITE DEVELOPMENT BASICS"',
             subheader:
-              'You can find this and some of my other projects in the Portfolio section of this CV.',
+              "You can find this and some of my other projects in the Portfolio section of this CV.",
             id: 5,
           },
           stage4: {
-            header:
-              "April 2020 - Today: I am self-taught web development.",
+            header: "April 2020 - Today: I am self-taught web development.",
             subheader:
               'You can see some of my projects in the "Portfolio" section of this resume.',
             id: 4,
@@ -78,8 +77,7 @@ const slice = createSlice({
         id: 4,
         context: {
           stage4: {
-            header:
-              "April 2020 – today: Self-taught web development.",
+            header: "April 2020 – today: Self-taught web development.",
             listHeader: "Used sources",
             listContext: [
               "YouTube course: ReactJS - The Samurai Way",
@@ -144,7 +142,8 @@ const slice = createSlice({
         id: 7,
         context:
           "Online School: IT-School is my attempt to share basic knowledge on the topic of web development. Since my diploma profession is a teacher, I believe that I can make good courses for beginners. The first course of my project is the Fundamentals of Website Building. Now this project is frozen, but I want to return to it someday with new inspiration and new knowledge.*",
-        notes: "* - I will be very happy if you visit YouTube or Booty project. You can go to them from the business card site.",
+        notes:
+          "* - I will be very happy if you visit YouTube or Boosty project. You can go to them from the business card site.",
         skilLsLabel:
           "The following skills and concepts were applied in the project",
         skillsList: [
@@ -156,17 +155,16 @@ const slice = createSlice({
           "And a lot of my soul :)",
         ],
         projectUrl: "https://itka-school.github.io/it-school-web/",
-        Interest:
-          "",
+        Interest: "",
         screen: logoItSchool,
       },
       {
         sectionName: "Social Network",
         id: 6,
         context:
-          "I use this project to get the knowledge needed to work with React.*",
+          "I used this project to get the knowledge needed to work with React.*",
         notes:
-          "*- At this stage of project development, responsive design is not a priority and will be added at the end of the project.",
+          "*- At this stage of project development, adaptive design is not a priority. The project was used to teach React related concepts",
         skilLsLabel:
           "The following skills and concepts were applied in the project",
         skillsList: [
@@ -223,7 +221,7 @@ const slice = createSlice({
         projectUrl:
           "https://aleksey-bor.github.io/retoart/index.html#StartHome",
         Interest:
-          'Hover your mouse over the photo retouching examples in the "Услуги" section to see an interesting animation solution on pure CSS. Change the width of the browser window to see how the site design changes.',
+          'Hover your mouse over the photo retouching examples in the \"Услуги\" section to see an interesting animation solution on pure CSS. Change the width of the browser window to see how the site design changes.',
         screen: retoartScreen,
       },
       {
@@ -244,7 +242,7 @@ const slice = createSlice({
         ],
         projectUrl: "https://aleksey-bor.github.io/clock/",
         Interest:
-          " The watch brand is a link, by clicking on it you can see information about their author :))",
+          "The watch brand is a link, by clicking on it you can see information about another project of their author :))",
         screen: clockScreen,
       },
       {
@@ -273,7 +271,7 @@ const slice = createSlice({
         sectionName: "Calculator",
         id: 2,
         context:
-          "The finished tabular layout should be revived with the functionality of the calculator*",
+          "Pre-made spreadsheet layout livened up with calculator functionality*",
         notes:
           "* - Since the start layout is made in the form of a rigid table, the application is displayed correctly only on the desktop.",
         skilLsLabel:

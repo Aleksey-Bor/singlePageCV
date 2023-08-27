@@ -2,6 +2,8 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import getSection from "../../helpers/getSection";
+import { useTranslation } from "react-i18next";
+import customTranslator from "../../helpers/customTranslator";
 
 export default function PortfolioSection() {
   let params = useParams();
@@ -11,9 +13,11 @@ export default function PortfolioSection() {
     portfolioSections
   );
 
+  const { t, i18n } = useTranslation();
+
   return (
     <main className="main-content">
-      <h3>{portfolioSection.sectionName}</h3>
+      <h3>{customTranslator(portfolioSection.sectionName, t, i18n)}</h3>
 
       {portfolioSection.screen ? (
         <div className="screenWrapper">
@@ -25,20 +29,22 @@ export default function PortfolioSection() {
         </div>
       ) : null}
 
-      <p>{portfolioSection.context}</p>
+      <p>{customTranslator(portfolioSection.context, t, i18n)}</p>
       {portfolioSection.skillsList ? (
         <div>
-          {portfolioSection.skilLsLabel}:
+          {customTranslator(portfolioSection.skilLsLabel, t, i18n)}:
           <ul>
             {portfolioSection.skillsList.map((skill) => (
-              <li>{skill}</li>
+              <li>{customTranslator(skill, t, i18n)}</li>
             ))}
           </ul>
         </div>
       ) : null}
       {portfolioSection.projectUrl ? (
         <p>
-          You can test this project from this link:{" "}
+          {i18n.language === "en"
+            ? "You can test this project from this link:"
+            : "Вы можете протестировать этот проект по этой ссылке:"}{" "}
           <a href={portfolioSection.projectUrl} target="_blank">
             {portfolioSection.sectionName.toUpperCase()}
           </a>
@@ -46,16 +52,20 @@ export default function PortfolioSection() {
       ) : null}
       {portfolioSection.login ? (
         <div>
-          Use to sign in:{" "}
+          {i18n.language === "en"
+            ? "Use to sign in:"
+            : "Используйте для входа:"}{" "}
           <ul>
             <li>Login: {portfolioSection.login}</li>
-            <li>Login: {portfolioSection.password}</li>
+            <li>Password: {portfolioSection.password}</li>
           </ul>
         </div>
       ) : null}
-      {portfolioSection.Interest ? <p>{portfolioSection.Interest}</p> : null}
+      {portfolioSection.Interest ? <p>{customTranslator(portfolioSection.Interest, t, i18n)}</p> : null}
       {portfolioSection.notes ? (
-        <p className="notes">{portfolioSection.notes}</p>
+        <p className="notes">
+          {customTranslator(portfolioSection.notes, t, i18n)}
+        </p>
       ) : null}
     </main>
   );
