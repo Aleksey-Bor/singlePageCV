@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/singlePageCV/static/css/main.895e3119.css",
-    "main.js": "/singlePageCV/static/js/main.d72c75df.js",
+    "main.css": "/singlePageCV/static/css/main.50927439.css",
+    "main.js": "/singlePageCV/static/js/main.511cf4c5.js",
     "static/media/avatar.jpg": "/singlePageCV/static/media/avatar.859cfcd98e9531aa2860.jpg",
+    "static/media/CV-BARKOUSKI _ru.docx": "/singlePageCV/static/media/CV-BARKOUSKI _ru.baf35f50f3460bd40b51.docx",
+    "static/media/CV-BARKOUSKI_en.docx": "/singlePageCV/static/media/CV-BARKOUSKI_en.5bbca651cd16d9327401.docx",
     "static/media/logo.png": "/singlePageCV/static/media/logo.15ef331d48e46b679a48.png",
     "static/media/retoart.jpg": "/singlePageCV/static/media/retoart.46ddca9a627f8c7b34eb.jpg",
     "static/media/fifteen_game.jpg": "/singlePageCV/static/media/fifteen_game.0c6687e408b6e91660a0.jpg",
@@ -11,11 +13,12 @@
     "static/media/calculator.jpg": "/singlePageCV/static/media/calculator.77d109a572e0b32eddd0.jpg",
     "static/media/clock.jpg": "/singlePageCV/static/media/clock.1267e6796e39b311dd7b.jpg",
     "index.html": "/singlePageCV/index.html",
-    "main.895e3119.css.map": "/singlePageCV/static/css/main.895e3119.css.map",
-    "main.d72c75df.js.map": "/singlePageCV/static/js/main.d72c75df.js.map"
+    "static/media/getFetch.cjs": "/singlePageCV/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.50927439.css.map": "/singlePageCV/static/css/main.50927439.css.map",
+    "main.511cf4c5.js.map": "/singlePageCV/static/js/main.511cf4c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.895e3119.css",
-    "static/js/main.d72c75df.js"
+    "static/css/main.50927439.css",
+    "static/js/main.511cf4c5.js"
   ]
 }
