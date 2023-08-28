@@ -23,7 +23,7 @@ const slice = createSlice({
         context: [
           "HTML / CSS",
           "SASS / SCSS",
-          "JS / TypeScript basics basics",
+          "JS / TypeScript basics",
           "React / Redux",
           "jQuery",
           "Bootstrap",
