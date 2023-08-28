@@ -27,7 +27,6 @@ const slice = createSlice({
           "React / Redux",
           "jQuery",
           "Bootstrap",
-          "Bootstrap",
           "Webpack basics",
           "NodeJS basics",
           "NodeJS basics",
