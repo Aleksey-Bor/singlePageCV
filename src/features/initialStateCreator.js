@@ -86,7 +86,7 @@ const slice = createSlice({
         id: 4,
         context: {
           stage4: {
-            header: "April 2020 – todaay: Self-taught web development.",
+            header: "April 2020 – today: Self-taught web development.",
             listHeader: "Used sources",
             listContext: [
               "YouTube course: ReactJS - The Samurai Way",
@@ -99,7 +99,7 @@ const slice = createSlice({
           },
           stage3: {
             header:
-              "2021 - todaay: I'm learning English on my own with YouTube courses - English with playlists",
+              "2021 - today: I'm learning English on my own with YouTube courses - English with playlists",
 
             id: 3,
           },
