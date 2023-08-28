@@ -29,7 +29,6 @@ const slice = createSlice({
           "Bootstrap",
           "Webpack basics",
           "NodeJS basics",
-          "NodeJS basics",
           "Git / GitHub",
         ],
         englishLevelCertificate: "https://www.efset.org/cert/ejY1ta",
