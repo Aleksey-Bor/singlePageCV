@@ -1,24 +1,25 @@
 {
   "files": {
     "main.css": "/singlePageCV/static/css/main.50927439.css",
-    "main.js": "/singlePageCV/static/js/main.99cb3523.js",
+    "main.js": "/singlePageCV/static/js/main.b1beff22.js",
     "static/media/avatar.jpg": "/singlePageCV/static/media/avatar.859cfcd98e9531aa2860.jpg",
-    "static/media/CV-BARKOUSKI _ru.docx": "/singlePageCV/static/media/CV-BARKOUSKI _ru.baf35f50f3460bd40b51.docx",
-    "static/media/CV-BARKOUSKI_en.docx": "/singlePageCV/static/media/CV-BARKOUSKI_en.5bbca651cd16d9327401.docx",
+    "static/media/CV-BARKOUSKI _ru.docx": "/singlePageCV/static/media/CV-BARKOUSKI _ru.1b7a5d931753ef22e2af.docx",
+    "static/media/CV-BARKOUSKI_en.docx": "/singlePageCV/static/media/CV-BARKOUSKI_en.4e0e888861b585aed776.docx",
     "static/media/logo.png": "/singlePageCV/static/media/logo.15ef331d48e46b679a48.png",
     "static/media/retoart.jpg": "/singlePageCV/static/media/retoart.46ddca9a627f8c7b34eb.jpg",
     "static/media/fifteen_game.jpg": "/singlePageCV/static/media/fifteen_game.0c6687e408b6e91660a0.jpg",
     "static/media/social_network.jpg": "/singlePageCV/static/media/social_network.468d155b9419b726ad9b.jpg",
+    "static/media/burger.png": "/singlePageCV/static/media/burger.a3ae3735399721b64cf5.png",
     "static/media/tic_tac.jpg": "/singlePageCV/static/media/tic_tac.a7fae7163637629d0118.jpg",
     "static/media/calculator.jpg": "/singlePageCV/static/media/calculator.77d109a572e0b32eddd0.jpg",
     "static/media/clock.jpg": "/singlePageCV/static/media/clock.1267e6796e39b311dd7b.jpg",
     "index.html": "/singlePageCV/index.html",
     "static/media/getFetch.cjs": "/singlePageCV/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.50927439.css.map": "/singlePageCV/static/css/main.50927439.css.map",
-    "main.99cb3523.js.map": "/singlePageCV/static/js/main.99cb3523.js.map"
+    "main.b1beff22.js.map": "/singlePageCV/static/js/main.b1beff22.js.map"
   },
   "entrypoints": [
     "static/css/main.50927439.css",
-    "static/js/main.99cb3523.js"
+    "static/js/main.b1beff22.js"
   ]
 }
