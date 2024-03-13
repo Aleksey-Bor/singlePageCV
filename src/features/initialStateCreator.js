@@ -343,7 +343,7 @@ const slice = createSlice({
           "Drag-and-drop elements",
           "and other",
         ],
-        projectUrl: "https://puzle15.alieksieiborko1.repl.co/",
+        projectUrl: "https://aleksey-bor.github.io/puzle15/",
         Interest:
           "It was very interesting to implement that the chips were moved simultaneously by dragging and dropping and by clicking. It was also necessary to solve the problem so that the chips distributed randomly fell into the DOM only in a combination that can be solved.",
         screen: fifteenGameScreen,
