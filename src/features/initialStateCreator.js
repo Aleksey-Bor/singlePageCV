@@ -6,6 +6,8 @@ import ticTacToeScreen from "../assets/tic_tac.jpg";
 import calculatorScreen from "../assets/calculator.jpg";
 import fifteenGameScreen from "../assets/fifteen_game.jpg";
 import logoItSchool from "../assets/logo.png";
+import burger from "../assets/burger.png";
+import burgerSmall from "../assets/burgerSmall.png";
 
 const slice = createSlice({
   name: "state",
@@ -38,12 +40,12 @@ const slice = createSlice({
         sectionName: "Work experience",
         id: 3,
         context: {
-          stage5: {
+          stage6: {
             header:
-              "May 2022 - February 2023: I developed and taught my own online course \"IT-School: WEBSITE DEVELOPMENT BASICS\"",
+              "September 2023 - January 2024: Introductory Programming Lesson Teacher at Skyeng/Skysmart.",
             subheader:
-              'You can see some of my projects in the "Portfolio" section of this resume.',
-            id: 5,
+              'Taught introductory programming lessons for children online.',
+            id: 6,
           },
           stage5: {
             header:
@@ -146,7 +148,7 @@ const slice = createSlice({
     portfolio: [
       {
         sectionName: "IT-School: WEBSITE DEVELOPMENT BASICS",
-        id: 7,
+        id: 9,
         context:
           "Online School: IT-School is my attempt to share basic knowledge on the topic of web development. Since my diploma profession is a teacher, I believe that I can make good courses for beginners. The first course of my project is the Fundamentals of Website Building. Now this project is frozen, but I want to return to it someday with new inspiration and new knowledge.*",
         notes:
@@ -164,6 +166,42 @@ const slice = createSlice({
         projectUrl: "https://itka-school.github.io/it-school-web/",
         Interest: "",
         screen: logoItSchool,
+      },
+      {
+        sectionName: "Landing site for a burger shop with delivery",
+        id: 8,
+        context:
+          "A small project to train both front-end and front-end development skills.*",
+        notes:
+          "* - Just below you will find a link to the presentation page of the server. Please be patient. The server is hosted for free, you need to wait until it wakes up during the site test.",
+        skilLsLabel:
+          "The following skills and concepts were applied in the project",
+        skillsList: [
+          "HTML, CSS",
+          "Native JS",
+          "NodeJS",
+          "HTTP Requests",
+          "Adaptive design",
+        ],
+        projectUrl: "https://aleksey-bor.github.io/burgerHouse",
+        Interest: "It was interesting to write the backend for a website for the first time.",
+        screen: burger,
+      },
+      {
+        sectionName: "Server presentation page for burger delivery",
+        id: 7,
+        context:
+          "This page displays orders that you can place on a landing site for a burger shop with delivery (see the project above).",
+        notes:
+          "",
+        skilLsLabel:
+          "",
+        skillsList: [
+          
+        ],
+        projectUrl: "https://florentine-unruly-galliform.glitch.me/",
+        Interest: "",
+        screen: burgerSmall,
       },
       {
         sectionName: "Social Network",
