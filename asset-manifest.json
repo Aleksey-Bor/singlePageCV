@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/singlePageCV/static/css/main.50927439.css",
-    "main.js": "/singlePageCV/static/js/main.b1beff22.js",
+    "main.js": "/singlePageCV/static/js/main.cc5a7d70.js",
     "static/media/avatar.jpg": "/singlePageCV/static/media/avatar.859cfcd98e9531aa2860.jpg",
     "static/media/CV-BARKOUSKI _ru.docx": "/singlePageCV/static/media/CV-BARKOUSKI _ru.1b7a5d931753ef22e2af.docx",
     "static/media/CV-BARKOUSKI_en.docx": "/singlePageCV/static/media/CV-BARKOUSKI_en.4e0e888861b585aed776.docx",
@@ -16,10 +16,10 @@
     "index.html": "/singlePageCV/index.html",
     "static/media/getFetch.cjs": "/singlePageCV/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.50927439.css.map": "/singlePageCV/static/css/main.50927439.css.map",
-    "main.b1beff22.js.map": "/singlePageCV/static/js/main.b1beff22.js.map"
+    "main.cc5a7d70.js.map": "/singlePageCV/static/js/main.cc5a7d70.js.map"
   },
   "entrypoints": [
     "static/css/main.50927439.css",
-    "static/js/main.b1beff22.js"
+    "static/js/main.cc5a7d70.js"
   ]
 }
